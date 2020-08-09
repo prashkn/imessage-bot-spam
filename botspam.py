@@ -1,9 +1,9 @@
 from py_imessage import imessage
 from time import sleep
 
-phone = "1234567890"
+phone = "19197986440"
 
-message = "string with spaces"
+message = "string here"
 
 def Convert(string):
     newArray = list(string.split(" "))
