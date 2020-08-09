@@ -3,5 +3,12 @@ from time import sleep
 
 phone = "1234567890"
 
-for x in range(10):
-    guid = imessage.send(phone, "type your message here" + str(x+1) + " out of 10000000 messages sent")
+message = "string with spaces"
+
+def Convert(string):
+    newArray = list(string.split(" "))
+    return newArray
+
+newMessage = Convert(message)
+for i in range(len(newMessage)):
+    guid = imessage.send(phone, newMessage[i])
