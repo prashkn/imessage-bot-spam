@@ -1,2 +1,2 @@
 # imessage bot spam
- sends a bunch of texts to someone lol
+bot utilizes py-imessage to send someone a string one word at a time
